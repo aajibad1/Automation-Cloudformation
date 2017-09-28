@@ -15,3 +15,4 @@ This CloudFormation  deploy scalable   instances of web server serving one webpa
   * SNS for notification during the scaling process.
   * A self-signed certificate is being generated and used by the ELB.
         
+# Execute using AWS CLI
