@@ -7,11 +7,11 @@ This CloudFormation  deploy scalable   instances of web server serving one webpa
         * Any http requests should be redirected to https
         * System may use a self-signed certificate for the web server
    # The AWS  env includes: 
-  . Amazon Linux
-  . Apache web server instance that uses  Auto Scaling and Elastic Load Balancing 
-  . CloudWatch alarms that execute Auto Scaling policies to scale up or down when the defined thresholds are exceeded
-  . AWS Elastic Load Balancing (ELB) is used to redirect http/https traffic to the web servers. 
-  . Pull the index web page from S3.
-  . SNS for notification during the scaling process.
-  . A self-signed certificate is being generated and used by the ELB.
+  * Amazon Linux
+  * Apache web server instance that uses  Auto Scaling and Elastic Load Balancing 
+  * CloudWatch alarms that execute Auto Scaling policies to scale up or down when the defined thresholds are exceeded
+  * AWS Elastic Load Balancing (ELB) is used to redirect http/https traffic to the web servers. 
+  * Pull the index web page from S3.
+  * SNS for notification during the scaling process.
+  * A self-signed certificate is being generated and used by the ELB.
         
